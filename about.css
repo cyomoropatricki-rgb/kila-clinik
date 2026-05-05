@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+    background: linear-gradient(rgba(0, 128, 0, 0.801) , rgba(0, 255, 0, 0.788) , rgba(255, 0, 0, 0.692) , rgba(255, 102, 0, 0.788) ,rgba(0, 0, 0, 0.733));
+}
+
+nav {
+    background-color: rgb(65, 131, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+b1 {
+    color: rgb(255, 94, 0);
+    margin-bottom: 4%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(255, 94, 0);
+    font-size: larger;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin: 5px;
+    justify-self: end;
+    position: relative;
+    text-align: center;
+    justify-content: space-around;
+    align-self: center;
+}
+
+nav a:hover {
+    color: aliceblue;
+    background: linear-gradient(rgba(255, 123, 0, 0.329) , rgba(0, 255, 0, 0.281));
+    padding: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: black;
+  margin: 20px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.main-content {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.services {
+  padding: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  gap: 30px;
+  background: rgba(0, 255, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.service-row img {
+  width: 45%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.service-row .text {
+  width: 45%;
+  padding: 20px;
+}
+
+.green {
+  color: green;
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.black {
+  color: black;
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.service-row .text p {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.services a:hover {
+  color: initial;
+  background: none;
+  padding: initial;
+}
+
+.kira-p {
+  text-align: center;
+  font-size: xx-large;
+  background-color: rgba(0, 0, 0, 0.527);
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    color: white;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.568);
+    place-items: inherit;
+}
+
+.copyright {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
